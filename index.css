@@ -1,0 +1,64 @@
+body {
+    margin: 10px 0 5px 0;
+    text-align: center;
+    background: #9AABD8;
+    font-family: Verdana;
+}
+
+h3 {
+    margin: 30px 30px 15px 30px
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    color: white;
+    max-width: 80%;
+    margin: auto;
+    border: 4px solid white;
+    border-radius: 10px;
+    padding: 10px 0 30px; 
+    font-size: 30px;
+}
+
+@font-face {
+    src: url("Digital.ttf");
+    font-family: Digital;
+}
+
+.score {
+    margin: 0 ;
+    width: 60px;
+    background: black;
+    padding: 10px 70px;
+    font-size: 100px;
+    border-radius: 5px; 
+    color: #F94F6D;
+    font-family: Digital;
+    font-weight: 500;
+}
+
+#reset-btn {
+    background: #047857;
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bold;
+    line-height: 1.25rem;
+    padding: 15px;
+    font-size: 22px;
+    width: 110px;
+}
+
+button {
+    margin: 30px 5px;
+    width: 50px;
+    background: #1B244A;
+    padding: 5px 12px;
+    font-size: 26px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: Digital;
+}

@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Scoreboard</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 class="score" id="home-score">0</h2>
+                <button onclick="homeAdd1Point()">+1</button>
+                <button onclick="homeAdd2Points()">+2</button>
+                <button onclick="homeAdd3Points()">+3</button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h2 class="score" id="guest-score">0</h2>
+                <button onclick="guestAdd1Point()">+1</button>
+                <button onclick="guestAdd2Points()">+2</button>
+                <button onclick="guestAdd3Points()">+3</button>
+            </div>
+        </div>
+        <div>
+            <button id="reset-btn" onclick="reset()">RESET</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
